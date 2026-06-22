@@ -1,0 +1,6 @@
+a="756"
+sum=0
+for i in a:
+    x=ord("a")-ord("0")
+    sum=(sum*10)+x
+print(type(sum))
