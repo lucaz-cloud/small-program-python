@@ -1,0 +1,10 @@
+a = ["Raju", "Ram", "Anu"]
+vowels = "aeiouAEIOU" 
+result = [] 
+for word in a: 
+    count = 0 
+    for ch in word: 
+        if ch in vowels: 
+            count += 1 
+            result.append(count) 
+print(result)
